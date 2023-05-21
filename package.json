@@ -1,0 +1,23 @@
+{
+  "name": "mercedes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open":"cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilow86/mercedes.io.git"
+  },
+  "author": "danilo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilow86/mercedes.io/issues"
+  },
+  "homepage": "https://github.com/danilow86/mercedes.io#readme",
+  "dependencies": {
+    "cypress": "^12.12.0"
+  }
+}
