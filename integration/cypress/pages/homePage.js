@@ -4,7 +4,9 @@ class homePage{
 
         hatchBackLink : () => cy.get('#hatchback-portaledId'),
         acceptCookies : () => cy.contains('Agree to all'),
-        models: () => cy.contains ('dh-io-vmos_9BIGf')
+        models: () => cy.get('dh-io-vmos_9BIGf'),
+        aClassLink : () => cy.get('.wb-grid-row dh-io-vmos_3Z8XX'),
+        buildYourCarLink : () => cy.get('.wb-grid-row dh-io-vmos_3Z8XX')
 
     }
 
@@ -16,6 +18,15 @@ class homePage{
 
     clickOnHatchback(){
         this.elements.hatchBackLink().click()
+    }
+
+    clickAclassModel(){
+        this.elements.aClassLink().click()
+    }
+
+    clickBuildYourCar()
+    {
+        this.elements.buildYourCarLink().click()
     }
 }
 
