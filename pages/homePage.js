@@ -20,7 +20,7 @@ class homePage{
 
     clickAclassModel(){
         //action to hover state
-        cy.get(aClassLink).trigger('mouseover')
+        //this.elements.aClassLink.trigger('mouseover')
         this.elements.aClassLink().click()
     }
 
