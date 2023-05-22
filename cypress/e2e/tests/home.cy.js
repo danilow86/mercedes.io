@@ -12,7 +12,8 @@ describe('Task 2: Automation Testingt', function() {
       homePage.clickAclassModel();
       homePage.clickBuildYourCar();
 
-      passengercarsPage.clickDieselOption();
+      //Takes a screnshots of the results
+      passengercarsPage.clickDieselOption().screenshot();
        })
       
       })
