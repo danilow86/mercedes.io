@@ -10,8 +10,6 @@ class homePage{
 
     }
 
-
-
     clickAcceptCookies(){
         this.elements.acceptCookies().click()
     }
@@ -21,6 +19,8 @@ class homePage{
     }
 
     clickAclassModel(){
+        //action to hover state
+        cy.get(aClassLink).trigger('mouseover')
         this.elements.aClassLink().click()
     }
 
